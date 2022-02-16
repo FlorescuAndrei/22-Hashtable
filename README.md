@@ -7,7 +7,7 @@ Hashtable
 -  Keys/Value pairs  
 -  Optimize for retrieval (when you know the key)  
 
-For arrays index = key , data = value but for hashtables key doesn’t have to be an integer.   
+For Arrays, index = key , data = value but for Hash tables key doesn’t have to be an integer.   
 
 Hashing  
 -  Maps keys of any data type to an integer  
