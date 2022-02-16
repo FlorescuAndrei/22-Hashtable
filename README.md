@@ -44,15 +44,19 @@ One approach to that is **linear probing**:
     -  Leave the array position occupied. Add a deletion field in item object, set it to true when deleted.  
     We occupied more memory and we have a polluted table . Better to rehash the table, keep it clean but depends.   
     
-2.  Chaining:  
+2.  **Chaining:** 
 -  Each array position contans a linked list. 
 -  With a good hash function and a good load factor this linked list will be short. 
 -  Complexity will be between O(1) and O(n) depending on hash function and load factor. 
 If k is the maximum length of LinkedList we will have O(1 + k). k is < n (n = number of all elements).  
 
 
-Java HashTables 
-Map interface – primary interface for hashtables.  
+Java HashTables  
+
+Map interface  
+– primary interface for hashtables.  
+
+
 HashMap class  
 –  Implementation of Map interface.
 -  Is a hashtable backed by an array of buckets.  
