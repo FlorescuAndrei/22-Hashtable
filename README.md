@@ -51,14 +51,14 @@ One approach to that is **linear probing**:
 If k is the maximum length of LinkedList we will have O(1 + k). k is < n (n = number of all elements).  
 
 
-Java HashTables  
+**Java HashTables**  
 
 Map interface  
-– primary interface for hashtables.  
+–  primary interface for hashtables.  
 
 
 HashMap class  
-–  Implementation of Map interface.
+-  Implementation of Map interface.
 -  Is a hashtable backed by an array of buckets.  
 -  Has a Chaining strategy approach .   
 A Bucket can be in general an array list or linked list.  
