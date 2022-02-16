@@ -53,8 +53,7 @@ If k is the maximum length of LinkedList we will have O(1 + k). k is < n (n = nu
 
 **Java HashTables**  
 
-Map interface  
-–  primary interface for hashtables.  
+Map interface: primary interface for hashtables.  
 
 
 HashMap class  
@@ -71,7 +70,7 @@ LinkedHashMap
 -  Is still backed up by an array but they also put all of the entries into a linked list. 
 
 HashTable  
--  Is imilar to HashMap but is tread safe.  
+-  Is similar to HashMap but is tread safe.  
 -  Doesn’t allow null key or null values.   
 
 
